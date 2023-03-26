@@ -1,5 +1,5 @@
 h1{  
-    font-size: 70px;
+    font-size: 40px;
     color: rgb(222, 234, 49) ;
 }
 
@@ -43,7 +43,7 @@ a{
 
 
 nav a {font-family: Arial, Helvetica, sans-serif;
-    font-size: 24px;
+    font-size: 15px;
     text-decoration: none;
     padding: 20px;
     text-align: center;
@@ -106,7 +106,7 @@ body{
 
 .search-bar,input[type="text"]{
     width: 100%;
-    max-width: 700px;
+    max-width: 650px;
     background: rgba(255, 255, 255, 0.2);
     display: flex;
     border-radius: 50px;
@@ -116,7 +116,7 @@ body{
 
 form.search-bar{
     margin-left: 20%;
-    margin-top: -46px;
+    margin-top: -60px;
 }
 
 .categories-container {
@@ -128,12 +128,12 @@ form.search-bar{
   }
   
   .categories-container h2 {
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     text-align: left;
     color: #1b0101;
     margin: 16px 0;
-    font-size: 55px;
+    font-size: 25px;
     
   }
   
@@ -150,8 +150,8 @@ form.search-bar{
   }
   
   .categories-list .single-category {
-    height: 470px;
-    width: 370px;
+    height: 350px;
+    width: 245px;
     text-decoration: none;
     position: relative;
     overflow: hidden;
