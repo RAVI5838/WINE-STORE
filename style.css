@@ -2,7 +2,6 @@ h1{
     font-size: 40px;
     color: rgb(222, 234, 49) ;
 }
-
 header{
     background-image: url(w.jpg); 
     padding: 15px 30px;
@@ -14,7 +13,6 @@ header{
 }
 div.bigimg{
     background-image:url(c2.jpg);
-    
     width: auto;
     height: 57em;
     background-size: cover;
@@ -24,24 +22,18 @@ div.bigimg{
     border-radius: 0px 0px 10px 10px;
     box-shadow: 0px 15px 15px 10px;
 }
-  
 li#cart{
     margin-left: 88%;
-
 }
 li#logo{
-    margin-left: 76%;
+    margin-left: 70%;
 }
 li.home{
    margin-left: 2px;
-
 }
-
 a{
     color: antiquewhite; 
 }
-
-
 nav a {font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
     text-decoration: none;
@@ -50,27 +42,22 @@ nav a {font-family: Arial, Helvetica, sans-serif;
     float: left;
     color: white;
     background-color: #333;
-
 }
 nav {
     background-color: #333;
     overflow: hidden;
-}
 
+}
 nav ul{
      margin: 0;
      padding: 0;
     list-style: none;  
-    white-space: nowrap;
-   
+    white-space: nowrap;  
 }
 nav .mainmenu >li{
     display: inline-block;
     text-align: center;
 }
-
-
-
 nav a{
     margin: 20;
     text-align: left;
@@ -83,50 +70,32 @@ nav a{
     width: 150px;
     text-align: center;
     border-radius: 10px;
- 
 }
 nav li:hover >a{
     background: rgb(193, 218, 8);
     cursor: pointer;
 }
 
-nav .submenu{
-    position: absolute;
-    display: none;
-}
-
-nav .mainmenu >li:hover .submenu{
-    display: block;
-    width: auto;
-}
 
 body{
     background-color: black;
 }
-
 .search-bar,input[type="text"]{
     width: 100%;
-    max-width: 650px;
+    max-width: 600px;
     background: rgba(255, 255, 255, 0.2);
     display: flex;
     border-radius: 50px;
     padding: 7px 15px;
-
 }
-
 form.search-bar{
     margin-left: 20%;
-    margin-top: -60px;
+    margin-top: -47px;
 }
-
 .categories-container {
     font-family: "Roboto", sans-serif;
     max-width: 900px;
-    
-    
-    padding: 8px 16px 16px 16px;
-  }
-  
+   padding: 8px 16px 16px 16px  }
   .categories-container h2 {
     padding-top: 10px;
     padding-bottom: 10px;
@@ -134,34 +103,27 @@ form.search-bar{
     color: #1b0101;
     margin: 16px 0;
     font-size: 25px;
-    
   }
-  
-  .categories-list {
+    .categories-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     gap: 0px;
   }
-  
-  .categories-list img {
+    .categories-list img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-  }
-  
-  .categories-list .single-category {
+  }  
+ .categories-list .single-category {
     height: 350px;
     width: 245px;
     text-decoration: none;
     position: relative;
     overflow: hidden;
-  }
-  
+  } 
   .categories-list .single-category:hover .category-title {
     opacity: 1;
-    transform: translateY(0);
-  }
-  
+    transform: translateY(0);}
   .categories-list .category-title {
     font-weight: 300;
     font-size: 24px;
@@ -181,7 +143,6 @@ form.search-bar{
     opacity: 0;
     transition: all 300ms ease-in-out;
   }
-  
   @media (max-width: 800px) {
     .categories-list {
       grid-template-columns: 1fr 1fr;
@@ -196,11 +157,9 @@ form.search-bar{
     .categories-list {
       grid-template-columns: 1fr;
     }
-  
     .categories-list .full-width {
       grid-column: 1/2;
     }
-  
     .categories-list .category-title {
       opacity: 1;
       transform: translateY(0);
