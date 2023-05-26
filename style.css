@@ -107,6 +107,7 @@ form.search-bar{
     .categories-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 100%;
     gap: 0px;
   }
     .categories-list img {
@@ -115,8 +116,9 @@ form.search-bar{
     object-fit: cover;
   }  
  .categories-list .single-category {
+     margin-right: 4px;
     height: 350px;
-    width: 245px;
+    width: 310px;
     text-decoration: none;
     position: relative;
     overflow: hidden;
@@ -152,7 +154,27 @@ form.search-bar{
       grid-column: 1/3;
     }
   }
-  
+  @media(max-width:998px){
+    html { font-size: 55%;
+    }
+  }
+  @media(max-width:768px){
+    html { font-size: 45%;
+      width: 550px;
+    flex-direction: column-reverse;
+    .search-bar,input[type="text"]{
+     margin-left: 0px;
+     
+     
+      
+  }
+    }
+    .leftSection .buttons{
+    text-decoration: none;
+    color: white;
+    margin-top: 3.125rem;
+    padding: 0rem;
+  }
   @media (max-width: 540px) {
     .categories-list {
       grid-template-columns: 1fr;
@@ -165,7 +187,8 @@ form.search-bar{
       transform: translateY(0);
     }
   }
-
+ 
+  }
   .slider-container {
     position: relative;
     width: 100%;
