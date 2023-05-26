@@ -9,7 +9,7 @@ header{
 	align-items: center;
 }
 .container{
-	background: white;
+	background:rgba(255, 255, 255, 0.571);
 	max-width: 800px;
 	min-height: 500px;
 	display: flex;
@@ -69,6 +69,7 @@ input[type="submit"]:hover{
 
 	body{
 		overflow-x: hidden;
+		
 	}
 
 
